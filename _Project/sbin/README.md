@@ -1,6 +1,6 @@
 # `sbin`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This output directory houses readily usable executables programs and
 applications **ONLY FOR system administrators and root account**. They are
@@ -17,7 +17,7 @@ This directory **MUST NOT** have any sub-directory.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Like any executable programs and applications, on UNIX, the filename
 **MUST BE THE SAME** as desired command.
@@ -43,7 +43,7 @@ them regardless of OSes.
 
 ## OS-Ready Executables
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 For OS-Ready executables, complying the above, it's best to either:
 

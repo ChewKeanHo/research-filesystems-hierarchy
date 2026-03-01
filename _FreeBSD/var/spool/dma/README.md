@@ -1,6 +1,6 @@
 # `/var/spool/dma`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) undelivered mail queue for
 DragonFly Mail Agent (DMA).

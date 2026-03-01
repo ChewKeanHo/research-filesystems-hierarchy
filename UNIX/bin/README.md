@@ -1,6 +1,6 @@
 # `/bin`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory for housing critical programs and applications
 of an operating system (OS) to function properly and minimally without any
@@ -35,7 +35,7 @@ This directory **MUST NOT** have any sub-directory.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 All POSIX compliant registered programs. Among them are:
 

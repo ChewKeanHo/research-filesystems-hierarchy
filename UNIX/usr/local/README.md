@@ -1,6 +1,6 @@
 # `/usr/local`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory for housing operating system's (OS) user supplied,
 system-wide available custom programs, applications and files for extending its
@@ -32,7 +32,7 @@ should use `/home/[YOUR_USERNAME]/.local` filesystem directory instead.
 
 ## The Localized UNIX System Resources (`usr/local`) Directory
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The `/usr/local` directory is one of the foundational directory for completing
 the entire OS' functionalities. When `/usr/local` combines with the

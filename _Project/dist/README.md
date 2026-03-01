@@ -1,6 +1,6 @@
 # `dist`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This output directory houses readily publishable web contents and packages. It
 is first introduced by Node.js technology
@@ -18,6 +18,6 @@ here for preventing any data poisoning or losses.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The naming convention is a singular `dist` name.

@@ -1,6 +1,6 @@
 # `/var/empty`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) empty directory facility for
 those programs and applications with specific needs.

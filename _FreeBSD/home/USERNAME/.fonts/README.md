@@ -1,6 +1,6 @@
 # `/home/USERNAME/.fonts`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is a functional directory used for user-only font files. Most graphical
 user interface (GUI) desktop manager (DM) will create this directory as it is.

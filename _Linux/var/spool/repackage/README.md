@@ -1,6 +1,6 @@
 # `/var/spool/repackage`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) `.rpm` repackaging data files
 for `rpm`.
@@ -20,6 +20,6 @@ practice safe-querying before use.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Refer `rpm` or `rpmbuild` manual.

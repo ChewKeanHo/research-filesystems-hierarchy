@@ -1,6 +1,6 @@
 # `/home/USERNAME/.cache`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is a functional directory used for user-only programs and applications data
 caching storage. Most graphical user interface (GUI) desktop manager (DM) will

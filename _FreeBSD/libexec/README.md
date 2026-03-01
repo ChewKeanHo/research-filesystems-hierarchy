@@ -1,6 +1,6 @@
 # `/libexec`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory for housing non-user, system-only, critical, programs
 and applications of an operating system (OS) to function properly and minimally
@@ -36,7 +36,7 @@ This directory **MUST NOT** have any sub-directory.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Otherwise, to support cross-compliations, it is advisable to use the
 `[OS]-[ARCH]` filename suffix convention. For example:

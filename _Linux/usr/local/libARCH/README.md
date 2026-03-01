@@ -1,6 +1,6 @@
 # `/usr/libARCH`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory for housing user custom supplied, non-critical,
 CPU-architecture specific libraries files to extend its functionalities from
@@ -36,7 +36,7 @@ package elsewhere). It will be available to all users system-wide.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 It is a practice to house the libraries files using `trademark` and `product`
 sub-directories organization. This can significantly reduces the naming

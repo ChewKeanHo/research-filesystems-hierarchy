@@ -1,6 +1,6 @@
 # `/rescue`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory housing all the critical programs, applications,
 configuration files, and data files for the operating system (OS) to perform

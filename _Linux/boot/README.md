@@ -1,6 +1,6 @@
 # `/boot`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory housing critical bootloading programs, applications,
 and configuration files to initialize the operating system (OS).
@@ -20,7 +20,7 @@ from the higher OS' functionalities.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 No restrictions. It is all depending on the chosen bootloader (e.g. `U-Boot`,
 `Grub`, etc), hardware, firmware, etc). Some bootloaders have strict partitions

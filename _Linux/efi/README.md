@@ -1,6 +1,6 @@
 # `/efi`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory is the new mount point for the EFI boot partition introduced
 by SystemD. Tools will look for this directory first, then `/boot` as a whole
@@ -29,7 +29,7 @@ from the higher OS' functionalities.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 EFI has strict filename requirements located at the root directory of this
 partition such that:

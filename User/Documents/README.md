@@ -1,6 +1,6 @@
 # Documents
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses an user's data files. The initial design was to let the
 user works exclusively in this directory. Expected files are documents,

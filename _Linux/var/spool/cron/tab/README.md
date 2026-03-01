@@ -1,6 +1,6 @@
 # `/var/spool/cron/tab`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) `crontab` time scheduler's
 data files.
@@ -16,6 +16,6 @@ practice safe-querying before use.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Refer `cron` or `crontab` manual.

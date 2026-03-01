@@ -1,6 +1,6 @@
 # `/var/spool/squirrelmail`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) data files for `squirrelmail`.
 
@@ -18,6 +18,6 @@ practice safe-querying before use.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Refer `squirrelmail` manual.

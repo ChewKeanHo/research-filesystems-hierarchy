@@ -1,6 +1,6 @@
 # `datastore`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all production data files used by a service server. In
 short, **this is the critical production data directory**.
@@ -18,7 +18,7 @@ data losses, or break the server's internal operating mechanisms.
 
 ## Naming Convention
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The naming convention is **singular `datastore`** since it represents the
 entire datastore of a service. The service can do internal structuring on its

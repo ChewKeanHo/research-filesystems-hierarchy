@@ -1,6 +1,6 @@
 # `/var/spool/cups`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) print jobs and temporary files
 for cups.
@@ -19,6 +19,6 @@ practice safe-querying before use.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Refer `cups` manual.

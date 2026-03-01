@@ -1,6 +1,6 @@
 # `/proc`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the **deprecated** base directory housing all process nodes
 (special files). This directory appears only when absolutely needed (e.g.

@@ -1,6 +1,6 @@
 # `/var/mail`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) user email files.
 
@@ -17,7 +17,7 @@ practice safe-querying before use.
 
 ## Naming Convention
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The naming convention is **singular `mail`** as it represent the entire mail
 directory.

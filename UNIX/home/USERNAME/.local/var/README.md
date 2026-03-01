@@ -1,6 +1,6 @@
 # `/home/USERNAME/.local/var`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the user-specific directory housing user supplied, non-critical,
 user-specific transient variable data files (e.g. game saves, web server files,
@@ -25,7 +25,7 @@ structure.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 It is a practice to house the data files using `trademark` and `product`
 sub-directories organization. This can significantly reduces the naming

@@ -1,6 +1,6 @@
 # Project Filesystems Layout
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the common filesystem used for project repository managements such
 as but not limited to:
@@ -17,7 +17,7 @@ may or may not appear when used depending on the automation being used.
 
 ## Primary Objective
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The primary objective is to have a common understanding for these directories
 whenever they are being used in the project layout. Not only it speeds up the

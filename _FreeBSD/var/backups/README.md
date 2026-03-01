@@ -1,6 +1,6 @@
 # `/var/backups`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) critical configurations backup
 files.

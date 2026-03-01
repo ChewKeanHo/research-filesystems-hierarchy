@@ -1,6 +1,6 @@
 # `etc`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all configuration files.
 
@@ -34,7 +34,7 @@ etc/
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Programs and applications always grow big and be flexible such that they
 always bloat their configurations and manifest files. Such big files are

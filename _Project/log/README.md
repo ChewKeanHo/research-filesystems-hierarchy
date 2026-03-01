@@ -1,6 +1,6 @@
 # `log`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This output directory houses all production logs related to the project. It is
 meant for developers to perform forensic analysis against a particular project's
@@ -48,7 +48,7 @@ log/
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 File extension is **ALWAYS REQUIRED** for type identifications among all the
 files.

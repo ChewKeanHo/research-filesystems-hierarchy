@@ -1,6 +1,6 @@
 # Common Filesystems Layout
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the common filesystem abstracted from:
 
@@ -16,7 +16,7 @@ directory layout or a project repository like `git` or `svn`.
 
 ## Primary Objective
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The primary objective is to have a common understanding for these directories
 whenever it is being used. Not only it speeds up the learning process but

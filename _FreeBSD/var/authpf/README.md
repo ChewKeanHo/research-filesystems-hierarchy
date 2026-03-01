@@ -1,6 +1,6 @@
 # `/var/authpf`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) user shell sessions for
 authenticating gateways data files.

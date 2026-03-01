@@ -1,6 +1,6 @@
 # `/home/USERNAME/.local`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all user-specific system directory with its own
 [Common](/Common) filesystems specifically for a user. This extends the
@@ -36,7 +36,7 @@ dedicated software like rootless package manager (e.g. Flatpak -
 
 ## File Structures
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 When this directory combines with [Common](/Common) directories structure, it
 houses user-only specific filesystems on top of the operating system (OS),

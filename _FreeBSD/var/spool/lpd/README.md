@@ -1,6 +1,6 @@
 # `/var/spool/lpd`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) line printer spooler daemon
 spool data and lock files.
@@ -19,6 +19,6 @@ practice safe-querying before use.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Refer printer (e.g. `cups`) manual.

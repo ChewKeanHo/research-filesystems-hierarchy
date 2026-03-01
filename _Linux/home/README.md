@@ -1,6 +1,6 @@
 # `/home`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all user level data directory. The first-level
 sub-directory name is mapped based on the user's username. The directory's
@@ -17,7 +17,7 @@ query before use.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The first layer is mapped against the username from the operating
 system's user management system (e.g. `/etc/passwd`). Anything within

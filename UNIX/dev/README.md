@@ -1,6 +1,6 @@
 # `/dev`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory housing all device nodes (special files).
 
@@ -15,7 +15,7 @@ entirely.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Based on operating systems engineering specification. Refer to their documents
 for more info. For examples:

@@ -1,6 +1,6 @@
 # `/var/media`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory housing all mounted removable media such as but not
 limited to CD, floppy disks, USB storage devices, external disks, decrypted
@@ -22,7 +22,7 @@ the designated filesystem ownership and permissions.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Each sub-directory holds a mounted device be it physical or virtual
 (e.g. decrypted partitions). The first sub-directory layer is recommended

@@ -1,6 +1,6 @@
 # `/dev`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory housing all device nodes (special files).
 
@@ -15,7 +15,7 @@ entirely.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 You need to refer to your OS's documentations for device nodes definitions.
 For examples:

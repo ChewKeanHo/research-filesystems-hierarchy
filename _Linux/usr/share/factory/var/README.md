@@ -1,6 +1,6 @@
 # `/usr/share/factory/var`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory for housing operating system's (OS) distributor
 supplied, non-critical, factory default transient data files for extending the
@@ -22,7 +22,7 @@ the distributor original supplied version.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The first sub-directory layer is function oriented (e.g. `log`, `mail`, `lock`,
 `cache`, `tmp`, `crash`, `www`, `spool`, ...). This is defined by the OS'

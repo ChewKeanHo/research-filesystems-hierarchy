@@ -1,6 +1,6 @@
 # `/sbin`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory for housing system administrators (sysadmins) only
 critical programs and applications of an operating system (OS) to function
@@ -35,7 +35,7 @@ This directory **MUST NOT** have any sub-directory.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 All programs here are registered programs that are usable across all UNIX and
 UNIX-like OSes (POSIX Compliant). Among them are:

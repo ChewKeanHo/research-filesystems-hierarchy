@@ -1,6 +1,6 @@
 # Filesystems Hierarchy Layouts Research Project
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Having trouble working with filesystems hierarchy layouts especially those that
 has standardized regulations like UNIX and Windows? Are you looking for some
@@ -43,7 +43,7 @@ broken search engines.
 
 To use this dataset, first setup the markdown rendering `git` repository
 (e.g. its GitHub mirror:
-https://github.com/ChewKeanHo/researches-filesystems-hierarchy). There you can
+https://github.com/ChewKeanHo/research-filesystems-hierarchy). There you can
 read the descriptions of each directory. For dataset, you need an UNIX program
 called `tree`. Then execute the command:
 
@@ -77,9 +77,81 @@ prior to `/UNIX` abstractions. Among them are:
 
 
 
+## Artificial Intelligence (A.I) Decrees
+
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
+
+This project deploys the use of one or more generative artificial intelligence
+such as but not limited to large language model (LLM) for the following tasks:
+
+
+
+### Data Sourcing
+
+> [!Note]
+>
+> * Performing enhanced web searches due to polluted search engine indexes.
+> * Performing completely generated media such as but not limited to images,
+>   videos, and audios.
+
+* Used for data and reading material searching as the search engine across the
+  Internet had collapsed due to A.I publication slops.
+* Used for grammar and language correction detection on the human-made written
+  script.
+
+
+
+### Data Processing & Analytics
+
+> [!Note]
+>
+> * Performing development via multi-steps queries (also known as
+>   *vibe coding* or *agentic AI processing*).
+> * Performing data analytics via multi-steps queries (also known as
+>   *vibe coding* or *AI vibing*).
+> * Performing dedicated and task specific work where conventional technologies
+>   could not achieve such as but not limited to upscaling an image verbatim.
+
+No deployment.
+
+
+
+### Data Testing
+
+> [!Note]
+>
+> * Performing end-user use case simulated testings.
+
+No deployment.
+
+
+
+### Data Visualization
+
+> [!Note]
+>
+> * Performing completely generated data visualization via multi-step queries
+>   (also known as *vibe coding*).
+
+No deployment.
+
+
+
+### Data Archiving & Deletion
+
+> [!Note]
+>
+> * Performing data clean-up via multi-step queries (also known as
+>   *vibe coding*).
+
+No deployment.
+
+
+
+
 ## Design Sources & References
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Currently, this project had already processed the following engineering
 specifications to match the outputs:
@@ -171,108 +243,104 @@ specifications to match the outputs:
 
 ## License
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-* [Agreed GIMP License](.internals/terms-of-services/GimpORG_License.pdf)
+* [Agreed GIMP License](.internals/terms-of-services/GimpORG-License.pdf)
 * [Agreed GIMP Privacy Policy](.internals/privacy-policy/GimpORG-Privacy-Policy.pdf)
-* [Agreed Inkscape License](.internals/terms-of-services/Inkscape_License.pdf)
+* [Agreed Inkscape License](.internals/terms-of-services/Inkscape-License.pdf)
 * [Agreed Inkscape Privacy Policy](.internals/privacy-policy/Inkscape-Privacy-Policy.pdf)
-* [Agreed (Holloway) Chew, Kean Ho's Upscaler License](.internals/terms-of-services/Upscaler_LICENSE.txt)
+* [Agreed (Holloway) Chew, Kean Ho's Upscaler License](.internals/terms-of-services/Upscaler-LICENSE.txt)
 
-This entire project is licensed under
+This entire repository is licensed under
 [Creative Commons Attribution-NoDerivatives 4.0 International License](LICENSE.txt).
+To ensure better understanding of this license, the following sub-sections will
+briefly describe how to deploy the content.
 
-Under this license, you are allowed to use the image for any means AS LONG AS
-YOU **MUST** attribute back to the arist(s) as follows:
+For registered non-profit organizations (NGO), you are considered a
+`Commercial Entity` the same as any for-profit organization by default. However,
+you will be eligible for the NGO disbursement grant and receive exception
+privileges from the creator(s).
+
+
+
+### Attribution
+
+Unless otherwise specified in writing, you **MUST** attribute back to the
+creator(s) as follows:
 
 ```
---------------------------------------------------------------------------------
 Title: (Holloway) Chew, Kean Ho's Filesystems Hierarchy Layouts Research Project
 Creators: (Holloway) Chew, Kean Ho
 Contact: hello@chewkeanho.com
+SKU: chewkeanho-research-filesystems-hierarchy
 UUID: 3113F0A2-61BD-449C-BC0F-DE4C09997AC6
-SKU: chewkeanho-researches-filesystems-hierarchy
-License: Creative Commons Attribution-NoDerivatives 4.0 International License
+DOI: 10.5281/zenodo.17864564
+License: Creative Commons Attribution-NoDerivatives 4.0 International License (https://creativecommons.org/licenses/by-nd/4.0)
 Made On: 2025-11-30
-Procure: https://github.com/ChewKeanHo/researches-filesystems-hierarchy
---------------------------------------------------------------------------------
+Procure: https://github.com/ChewKeanHo/research-filesystems-hierarchy
 ```
 
-For registered non-profit organizations (NGO), you're considered as a
-`Commercial Entity` similar to for-profit organizations by default but with
-the NGO disbursement grant and exception from the artist. Please process them
-as such.
 
 
-
-### Internal Use - Personal
+### Ownership - Personal
 
 > [!NOTE]
 >
-> This targets customers wanting to use the dataset just for internal use
-> without broadcasting to any other 3rd-party and without monetary intention
-> such as but not limited to:
+> This targets any customer wanting to own a copy of the content and then only
+> he/she is using it without sharing with any 3rd-party entity; AND **WITHOUT**
+> any monetary intention such as but not limited to:
 >
-> * Reading via handphone; OR
-> * Reading via computer.
+> * Saving a local copy and then viewing via his/her own mobile device(s); OR
+> * Saving a local copy and then viewing via his/her own personal computer; OR
+> * Saving a local copy for artificial intelligence data training purposes.
 
-You're **ALLOWED as long as you comply to the attribution above**.
+You are **ALLOWED** provided that you **STRICTLY COMPLY** with the license
+attribution.
 
 
 
-### Internal Use - Commerical
+### Ownership - Commercial
 
 > [!NOTE]
 >
-> This targets customers wanting to use the dataset just for internal use
-> without broadcasting to any other 3rd-party and with monetary intention such
+> This targets any customer wanting to own a copy of the content and then only
+> he/she is using it without sharing with any 3rd-party entity; AND **WITH** any
+> monetary intention such as but not limited to:
+>
+> * Saving a local copy for enhancing his/her company's procurement list; OR
+> * Saving a local copy for commercial artificial intelligence data training
+>   purposes.
+
+You are **ALLOWED** provided that you **STRICTLY COMPLY** with the license
+attribution.
+
+
+
+### Reference - Personal & Commercial
+
+> [!NOTE]
+>
+> This targets any customer wanting to refer or to provide a guide for sourcing
+> the original content for any 3rd-party entity **without directly displaying
+> any portion of the original content**; **WITHOUT** any monetary intention such
 > as but not limited to:
 >
-> * Every examples from `Internal Use - Personal`; AND
-> * Sampling dataset for enhancing company's procurement list.
+> * Academic research and paper writing; OR
+> * New content creation linking to the original content **WITHOUT displaying
+>   any of the original content** for his/her own streaming platform; OR
+> * Content production and collection linking to original content **WITHOUT
+>   displaying any of the original content**; OR
+> * Web portfolio project linking to the original content **WITHOUT displaying
+>   any of the original content**; OR
+> * Event materials linking the original content **WITHOUT displaying any of the
+>   original content**; OR
+> * Meeting materials linking the original content **WITHOUT displaying any of
+>   the original content**; OR
+> * Advertisement contents linking the original content **WITHOUT displaying any
+>   of the original content**.
 
-You're **ALLOWED as long as you comply to the attribution above**.
-
-
-
-### Broadcast Redistribution - Personal
-
-> [!NOTE]
->
-> This targets customers wanting to share the dataset via broadcasting without
-> monetary intention to multiple receiving 3rd-parties in both public or private
-> spaces disregarding their respective license compliances such as but not
-> limited to:
->
-> * Every examples from `Internal Use - Personal`; AND
-> * Private GitHub group sharing among team members; OR
-> * Private self-hosted Gitea sharing among family members.
-
-You're **ALLOWED as long as you comply to the attribution above**.
-
-
-
-### Broadcast Redistribution - Commercial
-
-> [!NOTE]
->
-> This targets customers wanting to share the dataset via broadcasting with
-> monetary intention to multiple 3rd-parties in both public or private spaces
-> disregarding their respective license compliances such as but not limited to:
->
-> * Every examples from `Internal Use - Personal`; AND
-> * Every examples from `Internal Use - Commercial`; AND
-> * Every examples from `Broadcast Redistribution - Personal`; AND
-> * Company's public events; OR
-> * Company's private events; OR
-> * Company's public exhibition; OR
-> * Company's entry payable private exhibition; OR
-> * YouTube public livestreaming; OR
-> * Company's marketing roadshow; OR
-> * Public GitHub group mirrored repository; OR
-> * Public self-hosted Gitea mirrored repository.
-
-You're **ALLOWED as long as you comply to the attribution above**.
+You are **ALLOWED** provided that you **STRICTLY COMPLY** with the license
+attribution.
 
 
 
@@ -280,17 +348,25 @@ You're **ALLOWED as long as you comply to the attribution above**.
 
 > [!NOTE]
 >
-> This targets customers wanting to use the dataset for direct integration into
-> their creation as it is without any remixes or modifications and without any
-> monetary intention from the project such as but not limited to:
+> This targets any customer wanting to directly **display portions and NOT ALL**
+> of the original content **as it is OR without any composing remixes or
+> modifications retaining the original intent, art direction and messages** into
+> his/her content creation; **WITHOUT** any monetary intention such as but not
+> limited to:
 >
-> * YouTube video creation **WITHOUT** any profits including advertisement
->   commission; OR
-> * Personal video production and collection; OR
-> * Personal web portfolio project; OR
-> * Machine learning training for conceiving artificial intelligence model.
+> * New content creation with displaying portion(s) of the original content for
+>   his/her own streaming platform **without any monetary gain**; OR
+> * Content production and collection with displaying portion(s) of the original
+>   content **without any monetary gain**; OR
+> * Web portfolio project with displaying portion(s) of the original content
+>   **without any monetary gain**; OR
+> * Event materials with displaying portion(s) of the original content
+>   **without any monetary gain**; OR
+> * Meeting materials with displaying portion(s) of the original content
+>   **without any monetary gain**.
 
-You're **ALLOWED as long as you comply to the attribution above**.
+You are **ALLOWED** provided that you **STRICTLY COMPLY** with the license
+attribution.
 
 
 
@@ -298,72 +374,23 @@ You're **ALLOWED as long as you comply to the attribution above**.
 
 > [!NOTE]
 >
-> This targets customers wanting to use the dataset for direct integration into
-> their creation as it is without any remixes or modifications and with any
-> monetary intention from the project such as but not limited to:
->
-> * Every examples from `Integration - Personal`; AND
-> * YouTube video creation **WITH** any profits mechansim including but not
->   limited to advertisement commission; OR
-> * Company internal event's dataset material; OR
-> * Company internal meeting's dataset material; OR
-> * Company public advertisement dataset materials; OR
-> * Company public digital display signage dataset materials.
-
-You're **ALLOWED as long as you comply to the attribution above**.
-
-
-
-### Reference Remix - Personal
-
-> [!NOTE]
->
-> This targets customers wanting to reference the dataset's elements for new
-> creation without any monetary intention from the project such as but not
+> This targets any customer wanting to directly **display portions and NOT ALL**
+> of the original content **as it is OR without any composing remixes or
+> modifications retaining the original intent, art direction and messages** into
+> his/her content creation; **WITH** any monetary intention such as but not
 > limited to:
 >
-> * YouTube video creation **WITHOUT** any profits including advertisement
->   commission; OR
-> * YouTube thumbnail images with edited images; OR
-> * Creating a new research paper referencing to this dataset; OR
-> * Creating a new research dataset referencing to this dataset; OR
-> * Personal web art expression portfolio project.
+> * New content creation with displaying portion(s) of the original content for
+>   his/her own streaming platform; OR
+> * Content production and collection with displaying portion(s) of the original
+>   content; OR
+> * Web portfolio project with displaying portion(s) of the original content; OR
+> * Event materials with displaying portion(s) of the original content; OR
+> * Meeting materials with displaying portion(s) of the original content; OR
+> * Advertisement materials with displaying portion(s) of the original content.
 
-You're **ONLY ALLOWED to reference WITHOUT ANY REMIXING** to the original
-dataset for your pursue including academic referencing as long as you comply
-to the attribution above without any count limitations or any other
-restrictions.
-
-You are **NOT ALLOWED** to create any derivatives (e.g. translating this paper
-into another language) as the license itself **STORNGLY PROHIBITS** anyone to
-do as such.
-
-
-
-### Reference Remix - Commercial
-
-> [!NOTE]
->
-> This targets customers wanting to reference the dataset's elements for new
-> creation without any monetary intention from the project such as but not
-> limited to:
->
-> * Every examples from `Reference Remix - Personal`; AND
-> * YouTube image video creation **WITH** any profits including
->   advertisement commission; OR
-> * YouTube thumbnail images with edited images; OR
-> * Journal publications; OR
-> * News reporting this dataset; OR
-> * Company internal units' dataset material with internal researchers.
-
-You're **ONLY ALLOWED to reference WITHOUT ANY REMIXING** to the original
-dataset for your pursue including academic referencing as long as you comply
-to the attribution above without any count limitations or any other
-restrictions.
-
-You are **NOT ALLOWED** to create any derivatives (e.g. translating this paper
-into another language) as the license itself **STORNGLY PROHIBITS** anyone to
-do as such.
+You are **ALLOWED** provided that you **STRICTLY COMPLY** with the license
+attribution.
 
 
 
@@ -371,20 +398,25 @@ do as such.
 
 > [!NOTE]
 >
-> This targets customers wanting to modify the original dataset's elements
-> compositions directly for producing a new dataset without any monetary
-> intention such as but not limited to:
+> This targets any customer wanting to own and then **modify the original
+> content extensively preserving or altering the original intent, art direction,
+> or message** for composing his/her new content creation; **WITHOUT** any
+> monetary intention such as but not limited to:
 >
-> * Every examples from `Reference Remix - Personal`; AND
-> * Personal dataset remixing practice using editing techniques such as but not
->   limited to digital processing, etc; OR
-> * YouTube video remix creation **WITHOUT** any profit including advertisement
->   commission; OR
-> * Create a modified dataset for personal use; OR
-> * Create a modified dataset for social media's attentions.
+> * New content creation with digitally modified and processed original content
+>   integration for his/her own streaming platform **WITHOUT** any profits
+>   including advertisement commission; OR
+> * Personal content production and collection with digitally modified and
+>   processed original content integration for his/her own streaming platform
+>   **WITHOUT** any profits including advertisement commission; OR
+> * Personal web portfolio project with digitally modified and processed
+>   original content integration for his/her own streaming platform **WITHOUT**
+>   any profits including advertisement commission; OR
+> * Social media meme content creation with digitally modified and processed
+>   original content integration for his/her own streaming platform **WITHOUT**
+>   any profits including advertisement commission.
 
-You are **NOT ALLOWED** to create any derivatives as the license itself
-**STORNGLY PROHIBITS** anyone to do as such.
+You are **NOT ALLOWED** due to the license restriction.
 
 
 
@@ -392,50 +424,70 @@ You are **NOT ALLOWED** to create any derivatives as the license itself
 
 > [!NOTE]
 >
-> This targets customers wanting to modify the original dataset's elements
-> compositions directly for producing a new dataset with any monetary intention
-> such as but not limited to:
+> This targets any customer wanting to own and then **modify the original
+> content extensively preserving or altering the original intent, art direction,
+> or message** for composing his/her new content creation; **WITH** any monetary
+> intention such as but not limited to:
 >
-> * Every examples from `Reference Remix - Personal`; AND
-> * Every examples from `Reference Remix - Commercial`; AND
-> * Every examples from `Composition Remix - Personal`; AND
-> * Post-processing dataset remixing or re-editing production; OR
-> * YouTube video creation remixing **WITH** any profit including advertisement
->   commission; OR
-> * Create a modified dataset for company's internal use; OR
-> * Create a modified dataset for company's social media's uses.
+> * New content creation with digitally modified and processed original content
+>   integration for his/her own streaming platform; OR
+> * Personal content production and collection with digitally modified and
+>   processed original content integration for his/her own streaming platform;
+>   OR
+> * Personal web portfolio project with digitally modified and processed
+>   original content integration for his/her own streaming platform; OR
+> * Social media meme content creation with digitally modified and processed
+>   original content integration for his/her own streaming platform.
 
-You are **NOT ALLOWED** to create any derivatives as the license itself
-**STORNGLY PROHIBITS** anyone to do as such.
+You are **NOT ALLOWED** due to the license restriction.
 
 
 
-### Resell Redistribution - Personal
+### Broadcast or Resell Redistribution - Personal
 
 > [!NOTE]
 >
-> This targets customers wanting to share and to redistribute the dataset and
-> its derrivatives without any monetary intention such as but not limited to:
+> This targets any customer wanting to share, to broadcast, to re-distribute,
+> to sell, or to re-sell the original, **modified, OR derived** content
+> **WITHOUT** any monetary intention such as but not limited to:
 >
-> * Sharing the dataset across social media **WITHOUT** any income including
->   but not limited to advertisement commissions; OR
-> * Share the dataset among friends via email/messaging attachment **WITHOUT**
->   any monetary transaction in any form involved.
+> * Sharing with family members; OR
+> * Streaming the content via any streaming platform with private viewer
+>   access; OR
+> * Displaying the content in his/her gallery with privately invited guests; OR
+> * Displaying the content in private, free entry open spaces like living room;
+>   OR
+> * Owning a copy of the original content and serving it as downloadable content
+>   on a website in a private network (e.g. self-hosted home network); OR
+> * Sharing the original content across social media or messaging applications
+>   like email or instant messenger.
 
-You are **ALLOWED as long as you comply to the attribution above**.
+You are **ALLOWED** provided that you **STRICTLY COMPLY** with the license
+attribution.
 
 
 
-### Resell Redistribution - Commercial
+### Broadcast or Resell Redistribution - Commercial
 
 > [!NOTE]
 >
-> This targets customers wanting to resell the dataset and its derrivatives
-> for any monetary intention such as but not limited to:
+> This targets any customer wanting to share, to broadcast, to re-distribute,
+> to sell, or to re-sell the original, **modified, OR derived** content
+> **WITH** any monetary intention such as but not limited to:
 >
-> * Every examples from `Resell Redistribution - Personal`; AND
-> * Sharing the dataset across company's social media; OR
-> * Selling the dataset to the public; OR
-> * Distribute the dataset into multiple profit-earning streaming platform.
+> * Streaming the content via any streaming platform with public or private
+>   viewer access; OR
+> * Displaying the content in any company's public events with free or payable
+>   guest invites; OR
+> * Displaying the content in any company's internal/private events with free or
+>   payable guest invites; OR
+> * Owning a copy of the original content and serving it as free OR payable
+>   downloadable content on his/her website in any network (Internet, Intranet,
+>   or private networks); OR
+> * Sharing the original content across social media or messaging applications
+>   like email or instant messenger; OR
+> * Distributing the original content via multiple profit-earning streaming
+>   platforms.
 
-You are **ALLOWED as long as you comply to the attribution above**.
+You are **ALLOWED** provided that you **STRICTLY COMPLY** with the license
+attribution.

@@ -1,3 +1,7 @@
+Copyright 2025 (Holloway) Chew, Kean Ho <hello@chewkeanho.com>
+Copyright 2025 Graham, Perrin <grahamperrin@gmail.com>
+
+
 Attribution-NoDerivatives 4.0 International
 
 =======================================================================

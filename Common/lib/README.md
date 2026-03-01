@@ -1,6 +1,6 @@
 # `lib`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all readily importable library files.
 
@@ -39,7 +39,7 @@ lib/
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 To support cross-compliations, it is advisable to use the `[OS]-[ARCH]`
 filename suffix convention. For example:

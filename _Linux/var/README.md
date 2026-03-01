@@ -1,6 +1,6 @@
 # `/var`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) multi-purpose transient
 variable data files like log files, data files, databases, etc.
@@ -16,7 +16,7 @@ and applications here.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Generally, *you want to avoid creating anything on the first sub-directory layer
 and likely want to use `/var/lib` instead*. The first sub-directory layer is a

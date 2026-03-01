@@ -1,6 +1,6 @@
 # `/lib`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory for only critical libraries used by critical programs
 and applications of an operating system (OS) to function properly and minimally
@@ -31,7 +31,7 @@ anything here and instead use `/usr/lib` exclusively.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 All libraries here are POSIX compliant registered libraries that are usable
 across all UNIX and UNIX-like OSes.

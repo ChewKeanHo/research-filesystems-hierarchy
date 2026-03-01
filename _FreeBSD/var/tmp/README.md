@@ -1,6 +1,6 @@
 # `/var/tmp`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's temporary files and directory.
 Unlike `/tmp` base directory, this temporary directory **get persisted** across
@@ -17,7 +17,7 @@ avoid post-use blaming or corrupted data usage.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 It is a practice to house the configuration files using `trademark` and
 `product` sub-directories organization. This can significantly reduces the

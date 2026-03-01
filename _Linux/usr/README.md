@@ -1,6 +1,6 @@
 # `/usr`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating systems' (OS) distributor supplied
 non-critical programs, applications, and files. It is sharable but read-only for
@@ -14,7 +14,7 @@ The goal is to expand the OS' functionalities from *Minimum & Critical* stage to
 
 ## The UNIX System Resources (`usr`) Directory
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The `/usr` directory is one of the very foundational directory for extending the
 base UNIX OS' functionalities. When `/usr` combines with the [Common](/Common)
@@ -76,7 +76,7 @@ UAPI Linux
 
 ## Primary Objectives
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The primary objective of this layer is to extend the OS's functionalities.
 

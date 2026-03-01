@@ -1,6 +1,6 @@
 # `/srv`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the directory housing site-specific data served by Red Hat Linux. This
 directory gives users the location of data files for a particular service, such

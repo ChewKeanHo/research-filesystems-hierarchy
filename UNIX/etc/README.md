@@ -1,6 +1,6 @@
 # `/etc`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This base directory houses all operating systems' (OS) critical and distribtor
 supplied configuration files to function properly and minimally without any
@@ -25,7 +25,7 @@ system maintenance tool.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 It is a practice to house the configuration files using `trademark` and
 `product` sub-directories organization. This can significantly reduces the

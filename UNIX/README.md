@@ -1,6 +1,6 @@
 # UNIX Filesystem Hierarchy Standard
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is UNIX specific Filesystem Hierarchy Standard (FHS) covering all
 compatible operating systems (OS) such as but not limited to:
@@ -15,7 +15,7 @@ For OS specific filesystems, please review their specific filesystems.
 
 # Understanding The 4 Stages of Functionalities Extensions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 UNIX operating systems generally go through 4 stages of functionalities
 extensions:
@@ -47,7 +47,7 @@ extensions:
 
 ## The Root
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The root directory is the very foundational and critical directory
 represented by `/` in UNIX OS. When root combines with [Common](/Common)
@@ -102,7 +102,7 @@ GNU+Linux
 
 ## Primary Objectives
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The primary objective of this layer is to boot the OS critical component
 up and running with minimum resources and be functionally operational.

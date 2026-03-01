@@ -1,6 +1,6 @@
 #  Free Berkeley Software Distribution (FreeBSD) Filesystem Hierarchy Standard
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is FreeBSD-specific Filesystem Hierarchy Standard (FHS) for FreeBSD
 operating system (OS).
@@ -10,7 +10,7 @@ operating system (OS).
 
 # Understanding The 4 Stages of Functionalities Extensions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 FreeBSD OS generally go through 4 stages of functionalities extensions:
 
@@ -41,7 +41,7 @@ FreeBSD OS generally go through 4 stages of functionalities extensions:
 
 ## The Root
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The root directory is the very foundational and critical directory
 represented by `/` in FreeBSD OS. When root combines with [Common](/Common)
@@ -85,7 +85,7 @@ various system roles:
 
 ## Primary Objectives
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The primary objective of this layer is to boot the OS critical component
 up and running with minimum resources and be functionally operational.

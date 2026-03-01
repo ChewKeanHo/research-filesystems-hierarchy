@@ -1,6 +1,6 @@
 #  Linux Filesystem Hierarchy Standard
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is a specific Filesystem Hierarchy Standard (FHS) for Linux-based operating
 system (OS). This directory is to consolidate all Linux based OSes datapoints
@@ -29,7 +29,7 @@ of them as possible, it cannot cover all the edge cases.
 
 # Understanding The 4 Stages of Functionalities Extensions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Linux-based OS generally go through 4 stages of functionalities extensions:
 
@@ -60,7 +60,7 @@ Linux-based OS generally go through 4 stages of functionalities extensions:
 
 ## The Root
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The root directory is the very foundational and critical directory
 represented by `/` in FreeBSD OS. When root combines with [Common](/Common)
@@ -102,7 +102,7 @@ various system roles:
 
 ## Primary Objectives
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The primary objective of this layer is to boot the OS critical component
 up and running with minimum resources and be functionally operational.

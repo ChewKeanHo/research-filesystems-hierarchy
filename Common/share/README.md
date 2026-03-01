@@ -1,6 +1,6 @@
 # `share`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all readily usable CPU-architecture independent files
 such as but not limited to `.pdf` documents, `.txt` documents, `.svg` images,
@@ -57,7 +57,7 @@ lib/
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 File extension is **ALWAYS REQUIRED** for type identifications among all the
 files. Name the file with the correct language (preferbly latin-1 for character

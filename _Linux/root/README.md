@@ -1,6 +1,6 @@
 # `/root`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses root account's data directory. The structure is the same
 as [/home/USERNAME](/_Linux/home/USERNAME) directory.

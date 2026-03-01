@@ -1,6 +1,6 @@
 # `/home/USERNAME`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all user level data directory.
 
@@ -15,7 +15,7 @@ query before use.
 
 ## File Structures
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 When this directory combines with [Common](/Common) directories structure, it
 houses user-only specific filesystems on top of the operating system (OS),

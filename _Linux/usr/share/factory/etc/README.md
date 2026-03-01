@@ -1,6 +1,6 @@
 # `/usr/share/factory/etc`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory for housing operating system's (OS) distributor
 supplied, non-critical, factory default configurations files for extending the
@@ -22,7 +22,7 @@ the distributor original supplied version.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 It is a practice to house the configuration files using `trademark` and
 `product` sub-directories organization. This can significantly reduces the

@@ -1,6 +1,6 @@
 # `/home/USERNAME/.local/bin`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the user-specific directory housing user supplied, non-critical,
 user-specific, programs and applications for extending the operating system's
@@ -26,7 +26,7 @@ structure.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Like any executable programs and applications, on UNIX, the filename
 **MUST BE THE SAME** as desired command.

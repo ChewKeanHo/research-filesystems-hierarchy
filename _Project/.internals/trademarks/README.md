@@ -1,6 +1,6 @@
 # `.internals/trademarks`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses the project (e.g. `git`) trademark graphic files like
 icons and banners. This is for end-users or customers to quickly recognizes
@@ -13,10 +13,10 @@ The outer-most layer here is production ready uses files.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 It is always recommended to use generic naming instead of product names
-(e.g. `animated-banner_1200x100.svg`) to ensure maximum operating
+(e.g. `banner_1200x100.svg`) to ensure maximum operating
 compatibilities across the project repository.
 
 A good guidance would be:
@@ -26,8 +26,8 @@ A good guidance would be:
 ```
 
 * **[purpose]** - states the purpose of the trademark (e.g.
-  `animated-banner` for web page display). Some examples:
-  *  **`animated-banner`** - web browsers animated banner.
+  `banner` for web page display). Some examples:
+  *  **`banner`** - web browsers animated banner.
   *  **`banner`** - static banner.
   *  **`banner-monochrome`** - static black and white monochromatic icon.
   *  **`icon`** - static icon.
@@ -53,7 +53,7 @@ them work on the design files.
 
 ## `.internals/trademarks/principals`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Depending on the project, you might want to create the `principals`
 directory to house the main graphic files (that generates the production
@@ -68,11 +68,11 @@ However, it is recommended to prefix the software you use to the name.
 Example:
 
 ```
-principals/inkscape-animated-banner_1200x100.svg
+principals/inkscape-banner_1200x100.svg
 
 # for
 
-animated-banner_1200x100.svg
+banner_1200x100.svg
 ```
 
 That way, future maintainer knows where to hunt for such software.

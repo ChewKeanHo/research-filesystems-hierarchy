@@ -1,6 +1,6 @@
 # `/usr/tmp`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses the operating system's (OS) `/usr`'s temporary files and
 directory. On some UNIX-like OSes like Red Hat Linux and Fedora, this directory

@@ -1,6 +1,6 @@
 # `/boot/efi`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory housing critical bootloading programs, applications,
 and configuration files to initialize the operating system (OS) using
@@ -30,7 +30,7 @@ for `/efi`.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 EFI has strict filename requirements located at the root directory of this
 partition such that:

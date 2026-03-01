@@ -1,6 +1,6 @@
 # `/var/log`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses production log files from one or many programs and
 applications across the entire operating system (OS).
@@ -19,7 +19,7 @@ id number increment) to avoid post-use blaming or data loss.
 
 ## Naming Convention
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The naming convention is **singular `log`** as it represent the entire logging
 service.

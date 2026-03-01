@@ -1,6 +1,6 @@
 # Music
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses an user's audio files. The initial design was to let the
 user save all the music files in this directory and let the media player only

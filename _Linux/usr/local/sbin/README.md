@@ -1,6 +1,6 @@
 # `/usr/local/sbin`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory for housing user custom supplied, non-critical,
 system administrators (sysadmins) only programs and applications to extend its
@@ -25,7 +25,7 @@ This directory **MUST NOT** have any sub-directory.
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Like any executable programs and applications, on UNIX, the filename
 **MUST BE THE SAME** as desired command.

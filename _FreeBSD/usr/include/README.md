@@ -1,6 +1,6 @@
 # `/usr/include`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory for housing operating system's (OS) distributor
 supplied, non-critical inclusion files (e.g. C header files) for extending the
@@ -22,7 +22,7 @@ your own locally build or custom sourced packages, you should place them inside
 
 ## Naming Conventions
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 It is a practice to house the libraries files using `trademark` and `product`
 sub-directories organization. This can significantly reduces the naming

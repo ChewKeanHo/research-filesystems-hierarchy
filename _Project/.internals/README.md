@@ -1,6 +1,6 @@
 # `.internals`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses the project repository (e.g. `git`) internal working
 resources like brand banners and logos that are not directly related to the
@@ -14,7 +14,7 @@ components).
 
 ## Dot (`.`) Naming Convention Prefix
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 The dot naming convention prefix is important to indicate this is the
 project-specific directory. Hence, it is `.internals` not `internals`.

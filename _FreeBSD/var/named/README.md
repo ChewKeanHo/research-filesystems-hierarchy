@@ -1,6 +1,6 @@
 # `/var/named`
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) `bind` or `bind9` DNS
 configuration files.
@@ -19,6 +19,6 @@ practice safe-querying before use.
 
 ## Naming Convention
 
-[![banner](/.internals/trademarks/animated-banner_1200x100.svg)](#)
+[![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Refer to `bind` or `bind9` manual.
