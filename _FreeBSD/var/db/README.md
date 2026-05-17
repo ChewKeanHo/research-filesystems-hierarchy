@@ -9,6 +9,8 @@ poisoning or losses.
 This directory is **ENTIRELY OPTIONAL** depending on the OS' engineering
 specifications.
 
+All files here are available to all users.
+
 Programs **SHOULD NOT** assume any file and directory here and **SHOULD** always
 practice safe-querying before use.
 
@@ -19,31 +21,29 @@ practice safe-querying before use.
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-It is a practice to house the libraries files using `trademark` and `product`
-sub-directories organization. This can significantly reduces the naming
-collision for common names.
+It is a practice to house the files using `trademark` and `product`
+sub-directories pattern. This can significantly reduces the naming collision for
+common names.
 
-Here are the examples with and without using `trademark` directory:
+Here are the examples:
 
 ```
-/var/
-  db/
-    trademark/
-      product/
-        node1
-        node2
-        file1.data
-        file2.data
-        ...
-
-# OR
-
-/var/
-  db/
+/var/db/
+  trademark/
     product/
       node1
       node2
       file1.data
       file2.data
       ...
+
+# OR
+
+/var/db/
+  product/
+    node1
+    node2
+    file1.data
+    file2.data
+    ...
 ```

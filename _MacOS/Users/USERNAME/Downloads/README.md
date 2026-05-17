@@ -2,8 +2,8 @@
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-This directory houses an user's downloaded files. It is a functional directory
-where most network interacting software and services notably browsers expect
-this directory to exist and to offer as the default location for saving.
+This directory houses an user's downloaded files. It is a default functional
+directory where most network interacting software and services notably browsers
+expect its existence.
 
 The directory's access is **RESTRICTED TO OWNER** by default.

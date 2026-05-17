@@ -1,4 +1,4 @@
-# `/home/USERNAME/.local`
+# `/home/[USERNAME]/.local`
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
@@ -44,14 +44,14 @@ personalized it just for this user. The combination happens inside a `.local`
 sub-directory of this directory. The commonly seen structures would be:
 
 ```
-/home/
-  [USERNAME]/
-    .local/
-      bin/
-      etc/
-      include/
-      lib/
-      sbin/
-      share/
-      var/
+/home/[USERNAME]/.local/
+  bin/
+  etc/
+  include/
+  lib/
+  libexec/
+  sbin/
+  share/
+  src/
+  var/
 ```

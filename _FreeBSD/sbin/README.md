@@ -13,8 +13,8 @@ Resources directory for functionalities extension, performing self-rescue, or
 straight up operational in resources constraint environment such as but not
 limited to OpenWRT embedded router.
 
-All programs and applications here are **ONLY** available to sysadmins (users in
-`wheel` group) and root account.
+All files here are **ONLY** available to sysadmins (users in `wheel` group) and
+`root` account.
 
 In some UNIX-like OSes like Oracle's Solaris (first to transform back in 2012)
 and Red Hat's Fedora (second to transform back in 2023), due to `/usr` is always
@@ -22,10 +22,13 @@ being mounted and hardware are no longer seeing performance differences between
 `/` and `/usr`, this directory is being symbolic linked to `/usr/sbin` instead;
 unifying both directories. This reduces the separation complexities while
 simplifying the package managements to target `/usr/sbin` only. **FreeBSD
-however, have not seen to perform such implementation yet.**
+however, have not seen to perform such implementation yet presumbly for backward
+compatibility purposes.**
 
 Generally, you **SHOULD ONLY** place programs that are very critical at early
-booting stage without conflicting with existing POSIX compliant programs.
+booting stage without conflicting with existing POSIX compliant programs. In the
+case of `/sbin` being symbolic linked to `/usr/sbin`, you **MUST NOT** place
+anything here and use `/usr/sbin` exclusively instead.
 
 This directory **MUST NOT** have any sub-directory.
 

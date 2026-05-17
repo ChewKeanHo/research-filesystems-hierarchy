@@ -4,6 +4,8 @@
 
 This directory houses all operating system's (OS) UFS quota information files.
 
+All files here are available to all users.
+
 Due to its processing nature, one **MUST** carefully work here to prevent any
 data poisoning or losses.
 

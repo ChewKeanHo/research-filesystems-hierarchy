@@ -1,29 +1,24 @@
-# `/boot/efi`
+# `/boot`
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory housing critical bootloading programs, applications,
-and configuration files to initialize the operating system (OS) using
-Extensible Firmware Interface (EFI) like
-Unified Extensible Firmware Interface (UEFI). This partition has specific
-rules where it **MUST** be `FAT32` format with `MSDOS_SUPER_MAGIC` and
-boot flag enabled.
+and configuration files to bootstrap the operating system (OS) from hardware
+using one or more bootloader type like Extensible Firmware Interface (EFI),
+Unified Extensible Firmware Interface (UEFI), or (legacy) BIOS Grub bootloader.
+This partition has specific rules where it **MUST** be the first readable
+partition where a hardware is scanning its content for bootloader and has boot
+flag enabled.
 
-The goal is simple: boot up the supported OS with hardware-software
-matching boot configurations, initialize kernel until the OS' initializers
-takes over to achieve `Minimal & Critical` functionalities stage.
+The goal is plain simple: boot up the OS with a hardware-software matching boot
+configurations, initialize kernel until the OS can take over for achieving
+`Minimal & Critical` functionalities stage.
 
-Generally, you **SHOULD ONLY** place EFI bootloading programs and their
+Generally, you **SHOULD ONLY** place bootloading programs and their
 configuration files inside this directory. Due to early boot sequences are
 hardware specific which can be very complex yet critical, this directory is
 often housing the bootloading artifacts reliably and systematically generated
-from the higher OS' functionalities.
-
-This directory is the legacy mount point for the EFI boot partition. In
-some UNIX-Like OS notably SystemD implementations, this directory is no longer
-used and is replaced by `/efi` or `/boot` entirely instead. According to their
-specifications, tools will look for this directory as a fallback after searching
-for `/efi`.
+from the higher OS functionalities.
 
 
 
@@ -32,20 +27,6 @@ for `/efi`.
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-EFI has strict filename requirements located at the root directory of this
-partition such that:
-
-```
-amd64   /EFI/BOOT/BOOTX64.EFI
-arm     /EFI/BOOT/BOOTARM.EFI
-arm64   /EFI/BOOT/BOOTAA64.EFI
-i386    /EFI/BOOT/BOOTIA32.EFI
-riscv   /EFI/BOOT/BOOTRISCV64.EFI
-```
-
-FreeBSD chainloads from the provided UEFI bootloader to its specific bootloaders
-such as but not limited to:
-
-```
-/EFI/FREEBSD/LOADER.EFI
-```
+No restrictions. It is all depending on the chosen bootloader (e.g. `U-Boot`,
+`Grub`, etc), hardware, firmware, etc). Some bootloaders have strict partitions
+setup, strict file names and pathing, stricts locations, and etc.

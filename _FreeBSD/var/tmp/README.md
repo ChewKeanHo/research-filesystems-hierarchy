@@ -6,6 +6,8 @@ This directory houses all operating system's temporary files and directory.
 Unlike `/tmp` base directory, this temporary directory **get persisted** across
 reboot (without deletion) enabling post booting forensic analytics use.
 
+All files here are available to all users.
+
 Programs **SHOULD NOT** assume any file and directory here and **SHOULD** always
 practice safe-querying before use.
 
@@ -19,23 +21,21 @@ avoid post-use blaming or corrupted data usage.
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-It is a practice to house the configuration files using `trademark` and
-`product` sub-directories organization. This can significantly reduces the
-naming collision for common names.
+It is a practice to house the files using `trademark` and `product`
+sub-directories pattern. This can significantly reduces the naming collision for
+common names.
 
-Here are the examples with and without using `trademark` directory:
+Here are the examples:
 
 ```
-/var/
-  tmp/
-    trademark/
-      product/
-        ...
+/var/tmp/
+  trademark/
+    product/
+    ...
 
 OR
 
-/var/
-  tmp/
-    product/
-      ...
+/var/tmp/
+  product/
+    ...
 ```

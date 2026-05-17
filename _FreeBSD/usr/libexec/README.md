@@ -2,22 +2,24 @@
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-This is the base directory for housing operating system's (OS) distributor
-supplied, non-critical, non-user system-only programs and applications of the
-OS to extend its functionalities from *Critical & Minimal* stage to
-*Full Catalogue* stage. This means it can operate in `Multi-Users` mode.
+This is the base directory for housing operating system (OS)'s system-wide,
+OS distributor supplied, non-critical, non-user system-only programs and
+applications (e.g. daemon server) to extend the OS' functionalities from
+*Critical & Minimal* stage to *Full Catalogue* stage. This means it can operate
+in both `Multi-User` mode in BSD realm or `Full Mode` in Linux realm.
 
-The goal is to extend the OS' functionalities for distributor level full
-functionalities. At this stage, the OS can operate as per its distributor's
-engineering specifications.
+The goal is to extend the OS' functionalities all the way to its OS
+distributor's supplied packages. All programs' and applications' names and
+locations are registered by OS distributor. Therefore, they are available
+consistently and uniformly across all the machines.
 
 All programs and applications here are **NOT AVAILABLE** as callable commands to
-any user. Sysadmins (users in `wheel` group) and root account must execute them
-via full filepath manually.
+any user. Anyone can execute them via full filepath manually.
 
-Generally, you **SHOULD ONLY** place distributor's registered programs here.
-For your own locally build or custom sourced packages, you should place them
-inside `/usr/local/libexec` directory instead.
+Generally, you **SHOULD NOT** place anything here **UNLESS** you are the OS
+distributor. This is to avoid any conflict with the upstream's registries that
+will break the OS in any way. Use `/usr/local/libexec` or
+`${HOME}/[USERNAME]/.local/libexec` instead.
 
 This directory **MUST NOT** have any sub-directory.
 
@@ -28,29 +30,5 @@ This directory **MUST NOT** have any sub-directory.
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-To support cross-compliations, it is advisable to use the `[OS]-[ARCH]` filename
-suffix convention. For example:
-
-```
-myprogram_linux-amd64.elf
-myprogram_linux-arm64.elf
-myprogram_freebsd-amd64.elf
-myprogram_freebsd-arm64.elf
-myprogram_windows-amd64.exe
-myprogram_windows-arm64.exe
-...
-```
-
-File extension is optional but for consistency sake, it's best to include them
-regardless of OSes.
-
-Then for common name, it is best to either:
-
-1. symbolic link into your program name (e.g.
-   `$ ln -s libexec/myprogram_linux-amd64.elf libexec/myprogram`); OR
-2. create a shell script (preferbly polygot script) as `libexec/myprogram`
-   that smartly execute the correct program
-   (`libexec/myprogram_linux-amd64.elf`).
-
-This strategy depends on how the project is being managed and one knows how to
-create a polygot shell script.
+Like any executable programs and applications, on UNIX, the filename
+**MUST BE THE SAME** as desired command.

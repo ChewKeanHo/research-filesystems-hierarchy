@@ -2,9 +2,9 @@
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-This directory houses all operating systems' (OS) distributor supplied
-non-critical programs, applications, and files. It is sharable but read-only for
-preventing unwanted temperment.
+This directory houses all operating system (OS)'s distributor supplied
+non-critical programs, applications, libraries, configurations, and files. It is
+sharable but read-only for preventing unwanted temperment.
 
 The goal is to expand the OS' functionalities from *Minimum & Critical* stage to
 *Full Catalogue* stage.
@@ -23,6 +23,8 @@ filesystems, you get a list of basic functional directories as such:
 ```
 /usr/bin           - OS distributor's supplied utilities programs and
                      applications.
+/usr/include       - OS distributor's supplied include files (e.g. c header
+                     files).
 /usr/lib           - OS distributor's supplied libraries used by non-critical
                      programs and applications.
 /usr/sbin          - OS distributor's supplied non-critical system
@@ -39,8 +41,7 @@ various system roles:
 
 ```
 /usr/freebsd-dist  - OS distributor's files.
-/usr/include       - OS distributor's supplied include files (e.g. c header
-                     files).
+/usr/liba[ARCH]    - OS distributor's cross CPU architectures library files.
 /usr/libdata       - OS distributor's supplied miscellaneous utility data files.
 /usr/libexec       - OS distributor's supplied system daemons and system
                      utilities executed by other programs and applications.
@@ -61,4 +62,4 @@ The primary objective of this layer is to extend the OS's functionalities.
 
 You can explore each `/usr` layer's base directories in details. Once done, head
 over to [`/usr/local`](/_FreeBSD/usr/local) directory which is the last
-system-level layer for functionalities' expansions.
+system-level layer for functionalities expansions.

@@ -2,22 +2,18 @@
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-This is the base directory for housing user custom supplied, non-critical,
-non-user system-only programs and applications to extend its functionalities
-from *Full Catalogue* stage to *Complete* stage. This means it can operate in
-`Multi-User` mode.
+This is the base directory for housing user's system-wide, custom supplied,
+non-critical, non-user system-only programs and applications (e.g. daemon
+server) to extend the operating system (OS)'s functionalities from
+*Full Catalogue* stage to *Complete* stage. This means it can operate in both
+`Multi-User` mode in BSD realm or `Full Mode` in Linux realm.
 
-The goal is to extend the OS' functionalities to its complete form. At this
-stage, the OS can operate as per its distributor's engineering specifications
-and customized as per user.
+The goal is to extend the OS' functionalities to its complete form by isolating
+OS distributor's packages away from user's system-wide OS customizations. These
+customizations, in theory, only specific to this machine instance.
 
-All programs and applications here are **NOT AVAILABLE** as callable commands to
-any user. Sysadmins (users in `wheel` group) and root account must execute them
-via full filepath manually.
-
-Generally, you **SHOULD AND STRONGLY ENCOURAGED** to place your distributor's
-unregistered programs here (e.g. from a custom package elsewhere). It will be
-available to all users system-wide.
+All files here are **NOT AVAILABLE** as callable commands to any user. Anyone
+can execute them via full filepath manually.
 
 This directory **MUST NOT** have any sub-directory.
 
@@ -28,29 +24,5 @@ This directory **MUST NOT** have any sub-directory.
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-To support cross-compliations, it is advisable to use the `[OS]-[ARCH]` filename
-suffix convention. For example:
-
-```
-myprogram_linux-amd64.elf
-myprogram_linux-arm64.elf
-myprogram_freebsd-amd64.elf
-myprogram_freebsd-arm64.elf
-myprogram_windows-amd64.exe
-myprogram_windows-arm64.exe
-...
-```
-
-File extension is optional but for consistency sake, it's best to include
-them regardless of OSes.
-
-Then for common name, it is best to either:
-
-1. symbolic link into your program name (e.g.
-   `$ ln -s libexec/myprogram_linux-amd64.elf libexec/myprogram`); OR
-2. create a shell script (preferbly polygot script) as `libexec/myprogram`
-   that smartly execute the correct program
-   (`libexec/myprogram_linux-amd64.elf`).
-
-This strategy depends on how the project is being managed and one knows how to
-create a polygot shell script.
+Like any executable programs and applications, on UNIX, the filename
+**MUST BE THE SAME** as desired command.

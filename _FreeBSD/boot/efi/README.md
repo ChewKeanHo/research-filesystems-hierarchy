@@ -5,13 +5,13 @@
 This is the base directory housing critical bootloading programs, applications,
 and configuration files to initialize the operating system (OS) using
 Extensible Firmware Interface (EFI) like
-Unified Extensible Firmware Interface (UEFI). This partition has specific
-rules where it **MUST** be `FAT32` format with `MSDOS_SUPER_MAGIC` and
-boot flag enabled.
+Unified Extensible Firmware Interface (UEFI). This partition has specific rules
+where it **MUST** be `FAT32` format with `MSDOS_SUPER_MAGIC` and boot flag
+enabled.
 
-The goal is simple: boot up the supported OS with hardware-software
-matching boot configurations, initialize kernel until the OS' initializers
-takes over to achieve `Minimal & Critical` functionalities stage.
+The goal is plain simple: boot up the OS with a hardware-software matching boot
+configurations, initialize kernel until the OS can take over for achieving
+`Minimal & Critical` functionalities stage.
 
 Generally, you **SHOULD ONLY** place EFI bootloading programs and their
 configuration files inside this directory. Due to early boot sequences are
@@ -19,9 +19,9 @@ hardware specific which can be very complex yet critical, this directory is
 often housing the bootloading artifacts reliably and systematically generated
 from the higher OS' functionalities.
 
-This directory is the legacy mount point for the EFI boot partition. In
-some UNIX-Like OS notably SystemD implementations, this directory is no longer
-used and is replaced by `/efi` or `/boot` entirely instead. According to their
+This directory is the legacy mount point for the EFI boot partition. In some
+UNIX-Like OS notably SystemD implementations, this directory is no longer used
+and is replaced by `/efi` or `/boot` entirely instead. According to their
 specifications, tools will look for this directory as a fallback after searching
 for `/efi`.
 

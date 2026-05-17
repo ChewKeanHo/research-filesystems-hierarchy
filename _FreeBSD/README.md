@@ -18,20 +18,20 @@ FreeBSD OS generally go through 4 stages of functionalities extensions:
    operational level. This only uses tools from the Root (`/`) directory
    excluding any system directories mounting (e.g. `/usr`). The goal varies
    depending on the system's holistic design ranging from operating entirely
-   in a resources limited environment (e.g. as OpenWRT router firmware),
-   performing operating systems self-rescue, or extending its functionality
-   to the next level.
-2. **Full Catalogue** - focuses on extending the OS' functionalities upto its
+   in a resources limited environment (e.g. before init stage), performing
+   operating systems self-rescue, or extending its functionality to the next
+   level.
+2. **Full Catalogue** - focuses on extending the OS functionalities upto its
    full potentials. This involves mounting the OS system directories (`/usr`).
-   The goal here is to extend the OS' capabilities upto to the OS distributor's
+   The goal here is to extend the OS capabilities upto to the OS distributor's
    warranted functionalities with their supplied software packages.
-3. **Complete** - focuses on extending the OS' functionalities further
-   with user introduced system-wide functionalities. This involves mounting
-   the OS' localized system directories (`/usr/local`). The goal here is to
-   completely make the OS fully functional with localized functionalities
-   (e.g. custom downloaded software packages setup by the user for all users).
-   At this point, the OS' functionalities are marked as completed.
-4. **Personalized** - focuses on extending the OS' functionalities with
+3. **Complete** - focuses on extending the OS functionalities further with user
+   introduced system-wide functionalities. This involves mounting the OS
+   localized system directories (`/usr/local`). The goal here is to completely
+   make the OS fully functional with localized functionalities (e.g. custom
+   downloaded software packages setup by the user for all users). At this point,
+   the OS functionalities are marked as completed.
+4. **Personalized** - focuses on extending the OS functionalities with
    user-specific system directories (`/home/USERNAME/.local`). This stage can
    change from time-to-time across different users as it based on the
    user-only configurations.
@@ -55,8 +55,13 @@ filesystem hierarchy, you get a list of basic functional directories such as:
 /tmp       - OS temporary work files.
 ```
 
-The root directory also has other system directories that provides
-various system roles:
+> [!NOTE]
+>
+> `/share` and `/src` are too much for this level (either bloat the entire
+> pre-init OS or simply not used). Hence, they are excluded as always.
+
+The root directory also has other system directories that provide various system
+roles:
 
 ```
 /boot        - OS critical bootloading component.
@@ -87,17 +92,17 @@ various system roles:
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-The primary objective of this layer is to boot the OS critical component
-up and running with minimum resources and be functionally operational.
-This is known as `Single User` operating mode.
+The primary objective of this layer is to boot the OS critical component up and
+running with minimum resources and be functionally operational. This is known as
+`Single User` operating mode.
 
 There are 2 possibilities:
 
-* user use the operating system as it is (commonly seen in bare-metal
-  embedded deployment like OpenWRT project); OR
-* operating system expands to its full potentials by mount and load
-  the `/usr` directory (common computing deployment).
+* user use the operating system as it is (commonly seen in bare-metal embedded
+  deployment like OpenWRT project); OR
+* operating system expands to its full potentials by mount and load the `/usr`
+  directory (common computing deployment).
 
-You can explore each root layer's base directories in details. Once
-done, head over to [`/usr`](/_FreeBSD/usr) directory which is the second
-layer for functionalities' expansions.
+You can explore each root layer's base directories in details. Once done, head
+over to [`/usr`](/_FreeBSD/usr) directory which is the next stage of OS
+functionalities expansions.
