@@ -12,7 +12,7 @@ The goal is to extend the OS' functionalities to its complete form by isolating
 OS distributor's packages away from user's system-wide OS customizations. These
 customizations, in theory, only specific to this machine instance.
 
-All library files here are available to all users.
+All files here are available to all users.
 
 Generally, you **SHOULD** place your own system-wide custom library files here.
 

@@ -8,4 +8,5 @@ decrypted partitions, or volume managed partitions. This is used by sysadmins
 and root account users only to debug a mountable device, volume files, or
 device partition.
 
-For production use or permanent  mounting, use `/media` base directory instead.
+For production deployment or permanent mounting, use `/media` base directory
+instead.

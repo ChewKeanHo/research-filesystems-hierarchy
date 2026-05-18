@@ -26,7 +26,7 @@ directory is at the owner's own discretions.
 
 ```
 /home/
-  USERNAME/
+  [USERNAME]/
     ...
 ```
 

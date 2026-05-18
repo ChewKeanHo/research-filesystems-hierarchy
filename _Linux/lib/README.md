@@ -2,31 +2,32 @@
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-This is the base directory for only critical libraries used by critical programs
-and applications of an operating system (OS) to function properly and minimally
-without any mounting (e.g. `/usr` is not mounted or absent). This means it can
-operate in `Emergency Mode`.
+This is the base directory for housing critical libraries used by critical
+programs and applications of an operating system (OS) to function properly and
+minimally without any mounting (e.g. `/usr` is not mounted or absent). This
+means it can operate in `Single-User` mode.
 
-The goal is to have minimally sufficient libraries to perform critical tasks
-like mounting `/usr` UNIX System Resources directory for functionalities
-extension, performing self-rescue, or straight up operational in resources
-constraint environment such as but not limited to OpenWRT embedded router.
+The goal is to have minimally sufficient programs enough for basic
+functionalities to perform critical tasks like mounting `/usr` UNIX System
+Resources directory for functionalities extension, performing self-rescue, or
+straight up operational in resources constraint environment such as but not
+limited to OpenWRT embedded router.
 
-All libraries here are available to all users.
+All files here are available to all users.
 
-In a lot of Linux OSes like Oracle's Solaris (first to transform back in 2012)
-Red Hat's Fedora (second to transform back in 2023) an Debian (started back in
-2022), due to `/usr` is always being mounted and hardware are no longer seeing
-performance differences between `/` and `/usr`, this directory is being symbolic
-linked to `/usr/lib` instead; unifying both directories. This reduces the
-separation complexities while simplifying the package managements to target
-`/usr/lib` only.
+In some UNIX-like OSes like Oracle's Solaris (first to transform back in 2012)
+and Red Hat's Fedora (second to transform back in 2023), due to `/usr` is always
+being mounted and hardware are no longer seeing performance compromise between
+`/` and `/usr`, this directory is being symbolic linked to `/usr/lib` instead;
+unifying both directories. This reduces the separation complexities while
+simplifying the package managements to target `/usr/lib` only. **FreeBSD
+however, have not seen to perform such implementation yet likely for backward
+compatibility purposes.**
 
-Generally, in the case of `/lib` being symbolic linked to `/usr/lib`, you
-**SHOULD NOT** place anything here and instead use `/usr/sbin` exclusively.
-Otherwise, in edge and rare cases, you **SHOULD ONLY** place programs that are
-very critical at early booting stage without conflicting with existing POSIX
-compliant programs.
+Generally, you **SHOULD ONLY** place libraries that are very critical at early
+booting stage without conflicting with existing libraries. In the case of
+`/lib` being symbolic linked to `/usr/lib`, you **MUST NOT** place anything here
+and use `/usr/lib` exclusively instead.
 
 
 
@@ -38,11 +39,11 @@ compliant programs.
 All libraries here are POSIX compliant registered libraries that are usable
 across all UNIX and UNIX-like OSes.
 
-It is a practice to house the libraries files using `trademark` and `product`
-sub-directories organization. This can significantly reduces the naming
-collision for common names.
+It is a practice to house the files using `trademark` and `product`
+sub-directories pattern. This can significantly reduces the naming collision for
+common names.
 
-Here are the examples with and without using `trademark` directory:
+Here are the examples:
 
 ```
 /lib/
@@ -63,11 +64,4 @@ Here are the examples with and without using `trademark` directory:
     kernel8.ko
     kernel8_freebsd-amd64.ko
     ...
-```
-
-Optional layouts introduced by some specific operating systems are:
-
-```
-# GNU+Linux
-modules  - houses Linux kernel modules' library and configuration files.
 ```

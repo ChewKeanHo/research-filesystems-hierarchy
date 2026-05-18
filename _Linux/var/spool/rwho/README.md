@@ -1,4 +1,4 @@
-# `/var/spool/rwho`
+# `/var/rwho`
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
@@ -6,6 +6,8 @@ This directory houses all operating system's (OS) users logged in data files.
 
 Due to its processing nature, one **MUST** carefully work here to prevent any
 data poisoning or losses.
+
+All files here are available to all users.
 
 Programs **SHOULD NOT** assume any file and directory here and **SHOULD** always
 practice safe-querying before use.

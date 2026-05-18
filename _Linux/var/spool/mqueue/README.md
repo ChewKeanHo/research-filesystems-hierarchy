@@ -8,6 +8,8 @@ This directory houses all operating system's (OS) undelivered mail queue for
 Due to its processing nature, one **MUST** carefully work here to prevent any
 data poisoning or losses.
 
+All files here are available to all users.
+
 This directory is **ENTIRELY OPTIONAL** depending on `sendmail` being installed
 in the OS.
 

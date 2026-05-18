@@ -8,6 +8,8 @@ applications across the entire operating system (OS).
 Due to its processing nature, one **MUST** carefully work here to prevent any
 data poisoning or losses.
 
+All files here are available to all users.
+
 Programs **SHOULD NOT** assume any file and directory here and **SHOULD** always
 practice safe-querying before use.
 
@@ -26,27 +28,25 @@ service.
 
 The file extension can either be `.txt` or `.log`.
 
-It is a practice to house the configuration files using `trademark` and
-`product` sub-directories organization. This can significantly reduces the
-naming collision for common names.
+It is a practice to house the files using `trademark` and `product`
+sub-directories pattern. This can significantly reduces the naming collision for
+common names.
 
-Here are the examples with and without using `trademark` directory:
+Here are the examples:
 
 ```
-/var/
-  log/
-    trademark/
-      product/
-        20251201_info.log
-        20251202_info.log
-        ...
-
-OR
-
-/var/
-  log/
+/var/log/
+  trademark/
     product/
       20251201_info.log
       20251202_info.log
       ...
+
+OR
+
+/var/log/
+  product/
+    20251201_info.log
+    20251202_info.log
+    ...
 ```

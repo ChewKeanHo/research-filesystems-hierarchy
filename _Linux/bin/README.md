@@ -2,32 +2,32 @@
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-This is the base directory for housing critical programs and applications
-of an operating system (OS) to function properly and minimally without any
-mounting (e.g. `/usr` is not mounted or absent). This means it can operate
-in `Emergency Mode`.
+This is the base directory for housing critical programs and applications of an
+operating system (OS) to function properly and minimally without any mounting
+(e.g. `/usr` is not mounted or absent). This means it can operate in
+`Emergency Mode`.
 
 The goal is to have minimally sufficient programs enough for basic
-functionalities to perform critical tasks like mounting `/usr`
-UNIX System Resources directory for functionalities extension, performing
-self-rescue, or straight up operational in resources constraint environment
-such as but not limited to OpenWRT embedded router.
+functionalities to perform critical tasks like mounting `/usr` UNIX System
+Resources directory for functionalities extension, performing self-rescue, or
+straight up operational in resources constraint environment such as but not
+limited to OpenWRT embedded router.
 
-All programs and applications here are available to all users.
+All files here are available to all users.
 
-In a lot of Linux OSes like Oracle's Solaris (first to transform back in 2012)
-Red Hat's Fedora (second to transform back in 2023) an Debian (started back in
-2022), due to `/usr` is always being mounted and hardware are no longer seeing
-performance differences between `/` and `/usr`, this directory is being
-symbolic linked to `/usr/bin` instead; unifying both directories. This reduces
-the separation complexities while simplifying the package managements to target
-`/usr/bin` only.
+In some UNIX-like OSes like Oracle's Solaris (first to transform back in 2012)
+and Red Hat's Fedora (second to transform back in 2023), due to `/usr` is always
+being mounted and hardware are no longer seeing performance compromise between
+`/` and `/usr`, this directory is being symbolic linked to `/usr/bin` instead;
+unifying both directories. This reduces the separation complexities while
+simplifying the package managements to target `/usr/bin` only. **FreeBSD
+however, have not seen to perform such implementation yet likely for backward
+compatibility purposes.**
 
-Generally, in the case of `/bin` being symbolic linked to `/usr/bin`, you
-**SHOULD NOT** place anything here and instead use `/usr/bin` exclusively.
-Otherwise, in edge and rare cases, you **SHOULD ONLY** place programs that
-are very critical at early booting stage without conflicting with existing
-POSIX compliant programs.
+Generally, you **SHOULD ONLY** place programs that are very critical at early
+booting stage without conflicting with existing POSIX compliant programs. In the
+case of `/bin` being symbolic linked to `/usr/bin`, you **MUST NOT** place
+anything here and use `/usr/bin` exclusively instead.
 
 This directory **MUST NOT** have any sub-directory.
 
@@ -38,7 +38,9 @@ This directory **MUST NOT** have any sub-directory.
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-All POSIX compliant registered programs. Among them are:
+All POSIX compliant registered programs based on IEEE POSIX1.0 list
+(refer: https://pubs.opengroup.org/onlinepubs/9799919799/idx/utilities.html).
+Among the known ones are:
 
 ```
 [        - program to test a condition (used in shell scripting).

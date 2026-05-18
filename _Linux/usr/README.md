@@ -2,9 +2,9 @@
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-This directory houses all operating systems' (OS) distributor supplied
-non-critical programs, applications, and files. It is sharable but read-only for
-preventing unwanted temperment.
+This directory houses all operating system (OS)'s distributor supplied
+non-critical programs, applications, libraries, configurations, and files. It is
+sharable but read-only for preventing unwanted temperment.
 
 The goal is to expand the OS' functionalities from *Minimum & Critical* stage to
 *Full Catalogue* stage.
@@ -23,6 +23,8 @@ filesystems, you get a list of basic functional directories as such:
 ```
 /usr/bin           - OS distributor's supplied utilities programs and
                      applications.
+/usr/include       - OS distributor's supplied include files (e.g. c header
+                     files).
 /usr/lib           - OS distributor's supplied libraries used by non-critical
                      programs and applications.
 /usr/sbin          - OS distributor's supplied non-critical system
@@ -31,44 +33,24 @@ filesystems, you get a list of basic functional directories as such:
 /usr/src           - OS distributor's supplied source files.
 ```
 
-* `/usr/etc` is generally unavailable as `/etc` is being used instead. However,
-  in some UNIX-like OS like Red Hat Linux, it is available for scoping down
-  distributor supplied configuration files.
-* `/usr/tmp` is generally unavailable as `/tmp` is being used instead. However,
-  in some UNIX-like OS like Red Hat Linux, it is available for replacing the
-  `/tmp` directory.
-
 The `/usr` directory also has other critical system directories that provides
 various system roles:
 
 ```
-/usr/include       - OS distributor's supplied include files (e.g. c header
-                     files).
+/usr/etc           - Unavailable as `/etc` is being used by default. Red Hat
+                     Linux does use this directory.
+/usr/kerberos      - Unused by many OS distributors. Red Hat Linux does use
+                     this directory.
+/usr/liba[ARCH]    - OS distributor's cross CPU architectures library files.
+/usr/libexec       - OS distributor's supplied system daemons and system
+                     utilities executed by other programs and applications.
 /usr/local         - local user-installed system-wide utilities programs and
                      applications.
-```
-
-Then, the OSes can specify its specific directories such as:
-
-```
-Red Hat Linux
--------------
-/usr/etc           - OS distributor's supplied configuration files.
-/usr/kerberos      - OS distributor's Kerberos-related binaries and files.
-/usr/libexec       - OS distributor's supplied system daemons and system
-                     utilities executed by other programs and applications.
-/usr/tmp           - OS distributor's "/usr" temporary files directory.
-
-
-SystemD
--------
-/usr/share/factory - OS distributor's default configurations and data files for
-                     factory reset.
-
-UAPI Linux
-----------
-/usr/libexec       - OS distributor's supplied system daemons and system
-                     utilities executed by other programs and applications.
+/usr/share/factory - Unused by many OS distributors. SystemD uses this for
+                     default configurations and data files restoration (factory
+                     reset).
+/usr/tmp           - Unavailable as `/tmp` is being used by default. Red Hat
+                     Linux does use this directory.
 ```
 
 
@@ -82,4 +64,4 @@ The primary objective of this layer is to extend the OS's functionalities.
 
 You can explore each `/usr` layer's base directories in details. Once done, head
 over to [`/usr/local`](/_Linux/usr/local) directory which is the last
-system-level layer for functionalities' expansions.
+system-level layer for functionalities expansions.

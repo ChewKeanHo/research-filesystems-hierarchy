@@ -5,14 +5,19 @@
 This directory houses all operating system's (OS) files containing information
 about the OS since it was booted.
 
-In certain UNIX-like OSes such as Debian Linux, this directory is symbolic
-linked to `/run` instead.
-
 Due to its processing nature, one **MUST** carefully work here to prevent any
 data poisoning or losses.
 
+All files here are available to all users.
+
 Programs **SHOULD NOT** assume any file and directory here and **SHOULD** always
 practice safe-querying before use.
+
+You **DEFINITELY MUST NOT** place anything here. Let the OS controls it
+entirely.
+
+In certain Linux-based OSes such as Debian Linux, this directory is symlinked
+to `/run` directory.
 
 
 

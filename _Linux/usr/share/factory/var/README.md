@@ -2,20 +2,20 @@
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-This is the base directory for housing operating system's (OS) distributor
-supplied, non-critical, factory default transient data files for extending the
-OS functionalities from *Critical & Minimal* stage to *Full Catalogue* stage.
-This means it can operate in `Full Mode`.
+This directory houses all operating system's (OS) multi-purpose transient
+variable data files like log files, data files, saved games files, databases,
+states files, etc.
 
-The goal is to extend the OS' functionalities for distributor level full
-functionalities. At this stage, the OS can operate as per its distributor's
-engineering specifications.
+Some data files are sharable while some are not. Programs should check the
+file's ownership and access permissions before performing any action.
 
 All files here are available to all users.
 
-Generally, you **SHOULD ONLY** place distributor's registered files here. These
-files are used to systematically and reliably restore the OS settings back to
-the distributor original supplied version.
+Generally, you **SHOULD ONLY** place data files used by the programs
+and applications here.
+
+This directory is a factory reset default configurations files that will
+overwrite the `/var` directory when triggered.
 
 
 
@@ -24,49 +24,58 @@ the distributor original supplied version.
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-The first sub-directory layer is function oriented (e.g. `log`, `mail`, `lock`,
-`cache`, `tmp`, `crash`, `www`, `spool`, ...). This is defined by the OS'
-engineering specification itself.
+Generally, *you want to avoid creating anything on the first sub-directory
+layer and likely want to use `/var/lib` instead*. The first sub-directory layer
+is a list of function oriented directories (e.g. `log`, `mail`, `lock`, `cache`,
+`tmp`, `crash`, `www`, `spool`, ...). This is defined by the OS' engineering
+specification.
 
-Within the function oriented sub directory, it is a practice to house the
-configuration files using `trademark` and `product` sub-directories
-organization. This can significantly reduces the naming collision for common
-names.
+Within each function oriented sub-directory, notably the commonly used
+`/var/lib` data directory, it is a practice to house the configuration files
+using `trademark` and `product` sub-directories pattern. This can significantly
+reduces the naming collision for common names.
 
-Here are the examples with and without using `trademark` directory:
+Here are the examples:
 
 ```
-/usr/
-  share/
-    factory/
-      var/
+/usr/share/factory/var/
+  cache/
+    trademark/
+      product/
         icons/
-          trademark/
-            product/
-              banner_1200x1200.svg
-              ...
-        log/
-          trademark/
-            product/
-              access.log
-              info.log
-              ...
+          banner_1200x1200.svg
+          ...
+  lib/
+    trademark/
+      product/
+        icons/
+          banner_1200x1200.svg
+          ...
+  log/
+    trademark/
+      product/
+        access.log
+        info.log
         ...
+  ...
 
 # OR
 
-/usr/
-  share/
-    factory/
-      var/
-        icons/
-          product/
-            banner_1200x1200.svg
-            ...
-        log/
-          product/
-            access.log
-            info.log
-            ...
+/usr/share/factory/var/
+  cache/
+    product/
+      icons/
+        banner_1200x1200.svg
         ...
+  lib/
+    product/
+      icons/
+        banner_1200x1200.svg
+        ...
+  log/
+    product/
+      access.log
+      info.log
+      ...
+  ...
 ```

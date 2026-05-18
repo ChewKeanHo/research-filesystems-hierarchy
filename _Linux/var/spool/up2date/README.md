@@ -8,6 +8,8 @@ for `rpm`.
 Due to its processing nature, one **MUST** carefully work here to prevent any
 data poisoning or losses.
 
+All files here are available to all users.
+
 This directory is **ENTIRELY OPTIONAL** depending on OS type and `rpm` package
 managers being installed in the OS. Example, for Red Hat Linux, Fedora, and
 similar types of OSes, this directory is heavily used.

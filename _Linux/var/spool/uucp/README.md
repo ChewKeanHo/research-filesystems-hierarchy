@@ -7,6 +7,8 @@ This directory houses all operating system's (OS) UUCP data files.
 Due to its processing nature, one **MUST** carefully work here to prevent any
 data poisoning or losses.
 
+All files here are available to all users.
+
 This directory is **ENTIRELY OPTIONAL** depending on UUCP being installed in the
 OS.
 

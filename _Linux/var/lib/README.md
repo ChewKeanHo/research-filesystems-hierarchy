@@ -8,6 +8,8 @@ persistent data.
 Due to its processing nature, one **MUST** carefully work here to prevent any
 data poisoning or losses.
 
+All files here are available to all users.
+
 Programs **SHOULD NOT** assume any file and directory here and **SHOULD** always
 practice safe-querying before use.
 
@@ -23,29 +25,27 @@ directory.
 
 The file extension can be anything.
 
-It is a practice to house the configuration files using `trademark` and
-`product` sub-directories organization. This can significantly reduces the
-naming collision for common names.
+It is a practice to house the files using `trademark` and `product`
+sub-directories pattern. This can significantly reduces the naming collision for
+common names.
 
-Here are the examples with and without using `trademark` directory:
+Here are the examples:
 
 ```
-/var/
-  lib/
-    trademark/
-      product/
-        data.save
-        profile1.jpg
-        transient.json
-        ...
-
-OR
-
-/var/
-  lib/
+/var/lib/
+  trademark/
     product/
       data.save
       profile1.jpg
       transient.json
       ...
+
+OR
+
+/var/lib/
+  product/
+    data.save
+    profile1.jpg
+    transient.json
+    ...
 ```

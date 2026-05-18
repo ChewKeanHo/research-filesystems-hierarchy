@@ -10,6 +10,11 @@ This directory is **ENTIRELY OPTIONAL** depending on the OS' engineering
 specifications and `arpwatch` being used. In Red Hat Linux, it is by default
 for arp spoofing monitoring.
 
+All files here are available to all users.
+
+This directory is **ENTIRELY OPTIONAL** depending on the OS' engineering
+specifications.
+
 Programs **SHOULD NOT** assume any file and directory here and **SHOULD** always
 practice safe-querying before use.
 

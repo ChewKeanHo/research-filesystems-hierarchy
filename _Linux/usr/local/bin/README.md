@@ -2,22 +2,26 @@
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-This is the base directory for housing user custom supplied, non-critical
-programs and applications to extend its functionalities from *Full Catalogue*
-stage to *Complete* stage. This means it can operate in `Multi-User` mode in BSD
-realm or `Full Mode` in Linux realm.
+This is the base directory for housing user's system-wide, custom supplied,
+non-critical programs and applications to extend the operating system (OS)'s
+functionalities from *Full Catalogue* stage to *Complete* stage. This means it
+can operate in both `Multi-User` mode in BSD realm or `Full Mode` in Linux
+realm.
 
-The goal is to extend the OS' functionalities to its complete form. At this
-stage, the OS can operate as per its distributor's engineering specifications
-and customized as per user.
+The goal is to extend the OS' functionalities to its complete form by isolating
+OS distributor's packages away from user's system-wide OS customizations. These
+customizations, in theory, only specific to this machine instance.
 
-All programs and applications here are available to all users.
+All files here are available to all users.
 
-Generally, you **SHOULD AND STRONGLY ENCOURAGED** to place your distributor's
-unregistered programs here (e.g. from a custom package elsewhere). It will be
-available to all users system-wide.
+Generally, you **SHOULD** place your own custom programs and applications here.
+It will be made available only for you.
 
 This directory **MUST NOT** have any sub-directory.
+
+In many Linux OSes like SystemD and UAPI, this directory is
+**DEPRECATED AND REMOVED** in favor of using `/home/[USERNAME]/.local/bin`
+instead.
 
 
 
@@ -27,4 +31,4 @@ This directory **MUST NOT** have any sub-directory.
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 Like any executable programs and applications, on UNIX, the filename
-**MUST BE THE SAME** as the desired command.
+**MUST BE THE SAME** as desired command.

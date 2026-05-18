@@ -3,17 +3,22 @@
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This is the base directory housing critical bootloading programs, applications,
-and configuration files to initialize the operating system (OS).
+and configuration files to bootstrap the operating system (OS) from hardware
+using one or more bootloader type like Extensible Firmware Interface (EFI),
+Unified Extensible Firmware Interface (UEFI), or (legacy) BIOS Grub bootloader.
+This partition has specific rules where it **MUST** be the first readable
+partition where a hardware is scanning its content for bootloader and has boot
+flag enabled.
 
-The goal is simple: boot up the operating system with hardware-software
-matching boot configurations, initialize kernel until the OS' initializers
-takes over to achieve `Minimal & Critical` functionalities stage.
+The goal is plain simple: boot up the OS with a hardware-software matching boot
+configurations, initialize kernel until the OS can take over for achieving
+`Minimal & Critical` functionalities stage.
 
 Generally, you **SHOULD ONLY** place bootloading programs and their
 configuration files inside this directory. Due to early boot sequences are
 hardware specific which can be very complex yet critical, this directory is
 often housing the bootloading artifacts reliably and systematically generated
-from the higher OS' functionalities.
+from the higher OS functionalities.
 
 
 

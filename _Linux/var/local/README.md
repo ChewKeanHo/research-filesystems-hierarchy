@@ -3,10 +3,14 @@
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
 This directory houses all operating system's (OS) localized programs and
-applications' (programs from `/usr/local`) persistent data.
+applications' (programs from `/usr/local`) persistent data. Due to its
+processing nature, one **MUST** carefully work here to prevent any data
+poisoning or losses.
 
-Due to its processing nature, one **MUST** carefully work here to prevent any
-data poisoning or losses.
+All files here are available to all users.
+
+This directory is **ENTIRELY OPTIONAL** depending on the OS' engineering
+specifications.
 
 Programs **SHOULD NOT** assume any file and directory here and **SHOULD** always
 practice safe-querying before use.
@@ -14,38 +18,31 @@ practice safe-querying before use.
 
 
 
-## Naming Convention
+## Naming Conventions
 
 [![banner](/.internals/trademarks/banner_1200x100.svg)](#)
 
-The naming convention is **singular `local`** as it represent the entire data
-directory.
+It is a practice to house the files using `trademark` and `product`
+sub-directories pattern. This can significantly reduces the naming collision for
+common names.
 
-The file extension can be anything.
-
-It is a practice to house the configuration files using `trademark` and
-`product` sub-directories organization. This can significantly reduces the
-naming collision for common names.
-
-Here are the examples with and without using `trademark` directory:
+Here are the examples:
 
 ```
-/var/
-  local/
-    trademark/
-      product/
-        data.save
-        profile1.jpg
-        transient.json
-        ...
-
-OR
-
-/var/
-  local/
+/var/local/
+  trademark/
     product/
       data.save
       profile1.jpg
       transient.json
       ...
+
+# OR
+
+/var/local/
+  product/
+    data.save
+    profile1.jpg
+    transient.json
+    ...
 ```
